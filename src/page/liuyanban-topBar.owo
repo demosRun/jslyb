@@ -1,0 +1,26 @@
+<template lang="pug">
+.liuyanban-top-bar
+  .clearfix.nav02.w1200
+    .fl
+      img(src='http://liuyan.people.com.cn/img/MAIN/2016/12/117070/images/logo.png' width='296' height='50')
+    .fr
+      a(href='http://leaders.people.com.cn/GB/178291/218130/433320/index.html' target='_blank')
+        img(src='http://liuyan.people.com.cn/NMediaFile/2020/0731/MAIN202007311735127786398685132.png' width='725' height='70' border='0' alt='')
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.nav02 { padding:18px 0;}
+.nav02 .fl{ width:300px;padding:5px 0;}
+.nav02 .fl img{ width:275px; height: 60px;}
+.nav02 .fr{ width:725px;}
+a, img {
+  display: block;
+}
+</style>

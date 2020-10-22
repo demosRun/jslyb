@@ -1,0 +1,60 @@
+<template lang="pug">
+.rank-box
+  .rank-bar.clear
+    .rank-bar-item.fl.active 周排行榜
+    .rank-bar-item.fr 月排行榜
+  ul.rank-conn
+    li.top-tic
+      .ind 1
+      a(href="#" target="_blank") 恳请放宽江苏公务员98岗位报考条件
+    li.top-tic
+      .ind 2
+      a(href="#" target="_blank") 恳请放宽江苏公务员98岗位报考条件
+    li.top-tic
+      .ind 3
+      a(href="#" target="_blank") 恳请放宽江苏公务员98岗位报考条件
+    li
+      .ind 4
+      a(href="#" target="_blank") 恳请放宽江苏公务员98岗位报考条件
+    li
+      .ind 5
+      a(href="#" target="_blank") 恳请放宽江苏公务员98岗位报考条件
+    li
+      .ind 6
+      a(href="#" target="_blank") 恳请放宽江苏公务员98岗位报考条件
+    li
+      .ind 7
+      a(href="#" target="_blank") 恳请放宽江苏公务员98岗位报考条件
+    li
+      .ind 8
+      a(href="#" target="_blank") 恳请放宽江苏公务员98岗位报考条件
+    li
+      .ind 9
+      a(href="#" target="_blank") 恳请放宽江苏公务员98岗位报考条件
+    li
+      .ind 10
+      a(href="#" target="_blank") 恳请放宽江苏公务员98岗位报考条件
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      
+    }
+  }
+</script>
+
+
+<style lang="less">
+.rank-bar-item {
+  width: 200px;
+  height: 45px;
+  text-align: center;
+  line-height: 45px;
+  font-size: 20px;
+  background-color: #e4e3e3;
+}
+.rank-conn {
+  border: 1px solid #cccccc;
+}
+</style>

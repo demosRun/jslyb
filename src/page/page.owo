@@ -1,0 +1,60 @@
+<template lang="pug">
+.home
+  plug(_name="topBar" _src="./src/page/topBar.owo")
+  plug(_name="liuyanban-topBar" _src="./src/page/liuyanban-topBar.owo")
+  plug(_name="module60" _src="https://template.owo.ink/c2cab888fc67bf34.owo")
+  .conn.w1200.clear
+    .fl.left
+      plug(_name="jrrd" _src="./src/page/jrrd.owo")
+      plug(_name="huati" _src="./src/page/huati.owo")
+      //- 广告
+      .banner
+        a(href='http://leaders.people.com.cn/GB/178291/218130/433251/index.html' target='_blank')
+          img(src='http://liuyan.people.com.cn/NMediaFile/2020/0731/MAIN202007311740472340831497571.png' width='740' height='100' border='0' alt='')
+      //- 我要留言
+      plug(_name="wyly" _src="./src/page/wyly.owo")
+    .right.fr
+      plug(_name="module12" _src="https://template.owo.ink/9393a92ac3137e49.owo")
+      plug(_name="lingdao" _src="./src/page/lingdao.owo")
+      .h30
+      //- 广告
+      .banner
+        a(href='http://leaders.people.com.cn/GB/178291/218130/433251/index.html' target='_blank')
+          img(src='http://liuyan.people.com.cn/NMediaFile/2020/0731/MAIN202007311740472340831497571.png' width='412' height='120' border='0' alt='')
+      plug(_name="rank" _src="./src/page/rank.owo")
+      .h30
+      //- 广告
+      .banner
+        a(href='http://leaders.people.com.cn/GB/178291/218130/433251/index.html' target='_blank')
+          img(src='http://liuyan.people.com.cn/NMediaFile/2020/0731/MAIN202007311740472340831497571.png' width='412' height='120' border='0' alt='')
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      console.log('s')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.conn.w1200 {
+  margin-top: 20px;
+  .left {
+    width: 750px;
+  }
+  .right {
+    width: 412px;
+  }
+}
+.banner {
+  a, img {
+    display: block;
+    width: 100%;
+  }
+}
+.lingdao, .rank-box {
+  margin-top: 30px;
+}
+</style>

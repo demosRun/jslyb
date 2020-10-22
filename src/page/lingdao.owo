@@ -1,0 +1,28 @@
+<template lang="pug">
+.lingdao
+  .message-num
+    p
+      span 昨日留言
+      span.message-1 5265条
+    p
+      span 今年留言
+      span.message-2 68946条
+    p
+      span 历史总留言
+      span.message-3 268946条
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.lingdao {
+  background-image: url('@|lingdao-bg.png|');
+  width: 412px;
+  height: 567px;
+}
+</style>

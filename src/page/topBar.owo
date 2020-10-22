@@ -1,0 +1,80 @@
+<template lang="pug">
+.top-bar
+  .clearfix.nav01
+    .w1200.grey1.clearfix
+      .fl
+        a(href='http://www.people.com.cn/' target='_blank') 人民网
+        | |
+        a(href='http://leaders.people.com.cn/' target='_blank') 地方领导频道
+        img(src='http://liuyan.people.com.cn/img/MAIN/2016/12/117070/images/icon01.png' width='18' height='18')
+        a(href='http://weibo.com/1880295725/profile?topnav=1&wvr=6' target='_blank') 官方微博
+        span.wxh
+          img(src='http://liuyan.people.com.cn/img/MAIN/2016/12/117070/images/icon02.png' width='18' height='18')
+          a(href='#') 微信号：dfldlyb
+          i
+            img(src='http://liuyan.people.com.cn/img/MAIN/2016/12/117070/images/wx_public.png' alt='微信号')
+        img(src='http://liuyan.people.com.cn/img/MAIN/2016/12/117070/images/icon03.png' width='18' height='18')
+        a(href='http://leaders.people.com.cn/GB/178291/218130/414212/index.html' target='_blank') 客户端
+        span.xcx
+          img(src='http://liuyan.people.com.cn/static/www/images/icon-xcx.png' width='18' height='18')
+          a(href='#') 小程序：领导留言板
+          i
+            img(src='http://liuyan.people.com.cn/img/MAIN/2016/12/117070/images/wx_lite.png' alt='小程序')
+        span
+          a(target='_blank' href='http://liuyan.people.com.cn/help') 帮助中心
+      .fr
+        a#login-point(href='http://liuyan.people.com.cn/logging.php?action=login' target='_blank') 登录
+        | |
+        a(href='http://liuyan.people.com.cn/register.php' target='_blank') 注册
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.nav01{
+  background:#eef1f6;
+  height:40px;
+  line-height:40px;
+  font-size: 13px;
+}
+.nav01 a{
+  padding:0 20px;
+  display: inline-block;
+}
+.nav01 img{
+  vertical-align:middle;
+  margin-right: -10px;
+}
+.nav01 .fr{ line-height:40px;}
+.nav01 .fr a {
+  padding: 0 5px;
+}
+.nav01 .fl span.wxh,.nav01 .fl span.xcx{
+  position: relative;
+  display: inline-block;
+}
+.nav01 .fl span.wxh i,.nav01 .fl span.xcx i{
+	display: none;
+  position: absolute;
+  top: 37px;
+  left: 0;
+  width: 100px;
+  right: 0;
+  margin: 0 auto;
+}
+.nav01 .fl span.wxh i img,.nav01 .fl span.xcx i img {
+	width: 100px;
+	height: 100px;
+}
+.nav01 .fl span.wxh:hover i,.nav01 .fl span.xcx:hover i{
+	display: block;
+}
+.grey1, .grey1 a:link, .grey1 a:visited, .grey1 a:hover {
+  color: #6e757f;
+}
+</style>

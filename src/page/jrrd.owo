@@ -1,0 +1,92 @@
+<template lang="pug">
+.p1_left
+  b.hot.white 今日热点
+  h1
+    a(href='http://tj.people.com.cn/n2/2020/1022/c375366-34365381.html' target='_blank')
+      strong @天津人 家乡“十四五”规划编制需要您的参与
+  p.zy
+  ul.clearfix.hot_news
+    li
+      a(href='http://liuyan.people.com.cn/threads/content?tid=8449522' target='_blank') 建议辽宁建立全国医药说明书数据库
+    li
+      a(href='http://liuyan.people.com.cn/threads/content?tid=8453326' target='_blank') 针对留守老人群体 打造服务性城市
+    li
+      a(href='http://liuyan.people.com.cn/threads/content?tid=8448200' target='_blank') 希望火车站候车厅能实现改签业务
+    li
+      a(href='/n1/2020/1021/c58278-31900011.html' target='_blank') 福建推行五级网络的“信访评理室”
+    li
+      a(href='http://liuyan.people.com.cn/threads/content?tid=8436969' target='_blank') 六枝特区修好了10年的正规菜场没使用？
+    li
+      a(href='http://liuyan.people.com.cn/threads/content?tid=7983649' target='_blank') 购房合同承诺办公积金贷款 但一直没办
+  ul.clearfix.pic_list
+    li
+      a(href='http://leaders.people.com.cn/GB/178291/218130/425490/432296/index.html' target='_blank')
+        img(src='http://liuyan.people.com.cn/NMediaFile/2020/0423/MAIN202004231026464172083089568.jpg' width='165' height='100' border='0' alt='形式主义问题线索征集')
+        p 形式主义问题线索征集
+    li
+      a(href='http://leaders.people.com.cn/GB/178291/218130/431995/index.html' target='_blank')
+        img(src='http://liuyan.people.com.cn/NMediaFile/2020/0313/MAIN202003131726396776182113195.jpg' width='165' height='100' border='0' alt='决战脱贫攻坚建言征集')
+        p 决战脱贫攻坚建言征集
+    li
+      a(href='http://leaders.people.com.cn/GB/178291/218130/433767/index.html' target='_blank')
+        img(src='http://liuyan.people.com.cn/NMediaFile/2020/0910/MAIN202009100914551210258213015.jpg' width='165' height='100' border='0' alt='谈谈垃圾分类的好办法')
+        p 谈谈垃圾分类的好办法
+    li
+      a(href='http://leaders.people.com.cn/GB/178291/218130/430595/index.html' target='_blank')
+        img(src='http://liuyan.people.com.cn/NMediaFile/2020/0731/MAIN202007311747080347607954242.png' width='165' height='100' border='0' alt='被欠账？来留言')
+        p 被欠账？来留言
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.p1_con{ margin:25px auto 0;}
+.p1_left{ width:740px;}
+.p1_right{ width:400px; padding-right:10px;}
+.p1_left .hot{
+  margin-left: 10px;
+  font-size: 16px;
+  background: #d83240;
+  padding: 4px 16px;
+  font-weight: normal;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+}
+.p1_left h1{ margin-left:10px; text-align:center; padding:20px 0; margin-bottom:20px; line-height:160%; font-size:26px; border-bottom:#e9e9e9 1px solid;}
+.p1_left .hot_news{height:140px; background:url(http://liuyan.people.com.cn/img/MAIN/2016/12/117070/images/p1_01.jpg) top right no-repeat;}
+.p1_left .hot_news li {
+  float: left;
+  font-size: 16px;
+  line-height: 40px;
+  width: 330px;
+  height: 40px;
+  margin: 0 0 10px 10px;
+  text-align: left;
+  color: #010101;
+  padding: 0 15px;
+}
+.p1_left a {
+  color: #010101;
+}
+.p1_left .pic_list{ margin:20px auto;}
+.p1_left .pic_list li{ float:left; margin: 10px; width:165px; font-size:14px; line-height:160%;}
+.p1_left .pic_list li img{ display:block; margin-bottom:5px;}
+.white, .white a:link, .white a:visited, .white a:hover {
+  color: #fff;
+}
+a {
+  display: block;
+}
+h1 {
+  font-family: "Microsoft YaHei";
+  strong {
+    font-weight: normal;
+  }
+}
+</style>

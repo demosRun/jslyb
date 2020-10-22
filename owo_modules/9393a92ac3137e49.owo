@@ -1,0 +1,124 @@
+<template lang="pug">
+.swiper-box
+  .swiper-container.clear
+    .swiper-wrapper
+      .swiper-slide(:for="data._swiperBoxList")
+        a(href="#")
+          img(src="{value.src}" width="413" height="242")
+          .text {value.text}
+    .pagination
+    img.left-button(o-tap="swiperPrev" src="@|left.png|")
+    img.right-button(o-tap="swiperNext" src="@|right.png|")
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      swiper: null,
+      _swiperBoxList: [
+        {src:"https://cunchu.site/upload/de11264d737d7ae2.jpeg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"https://cunchu.site/upload/b166f050c3f2d45d.jpeg", text: "全省“法治进校园”巡讲团首站——晋中"},
+        {src:"https://cunchu.site/upload/de78c150e6a6944d.jpeg", text: "全省“法治进校园”巡讲团首站——晋中"},
+      ]
+    },
+    created: function () {
+      // 轮播图展示区域swiper
+      setTimeout(() => {
+        this.data.swiper = new Swiper(this.$el.getElementsByClassName('swiper-container')[0], {
+          // pagination: this.$el.getElementsByClassName('pagination')[0],
+          loop: true,
+          autoplay: 3000,
+          paginationClickable: true
+        })
+      }, 0)
+    },
+    swiperNext: function () {
+      this.data.swiper.swipeNext ? this.data.swiper.swipeNext() : this.data.swiper.slideNext()
+    },
+    swiperPrev: function () {
+      this.data.swiper.swipePrev ? this.data.swiper.swipePrev(): this.data.swiper.slidePrev()
+    }
+  }
+</script>
+
+
+<style lang="less">
+.swiper-box {
+  height: 242px;
+  overflow: hidden;
+  width: 413px;
+  margin: 0 auto;
+  .swiper-wrapper .img {
+    width: 100%;
+    height: 100%;
+  }
+  a {
+    display: block;
+    color: white;
+    width: 100%;
+    height: 100%;
+  }
+  .swiper-wrapper .text {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    line-height: 40px;
+    padding: 0 1%;
+    width: 98%;
+    font-size: 15px;
+    text-align: center;
+  }
+  .swiper-container {
+    width: 100%;
+    height: 242px;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+.swiper-pagination-switch {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  float: left;
+  box-shadow: 0px 1px 2px #555 inset;
+}
+.swiper-active-switch {
+  background-color: #168cdb;
+}
+a {
+  text-decoration: none;
+}
+.swiper-slide {
+  position: relative;
+}
+.pagination{
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  height: 10px;
+}
+.left-button {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+.right-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+</style>
