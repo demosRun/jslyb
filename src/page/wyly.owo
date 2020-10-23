@@ -21,13 +21,14 @@
 
 <style lang="less">
 .tab-box {
-  margin-top: 20px;
+  margin-top: 30px;
   position: relative;
 }
 .tab-bar {
   line-height: 40px;
   border-bottom: #d73240 2px solid;
   color: black;
+  margin-bottom: 20px;
 }
 .tab-bar-item {
   display: inline-block;
@@ -52,7 +53,7 @@
 }
 .tab-conn {
   li {
-    line-height: 50px;
+    line-height: 60px;
     font-size: 18px;
     color: #333;
     border-bottom: 1px dashed #ccc;

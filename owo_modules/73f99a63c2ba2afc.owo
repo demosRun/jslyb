@@ -1,0 +1,112 @@
+<template lang="pug">
+.liuyanban.clear
+  .w1200
+    .item-1.liuyanban-item
+      h2
+        img(src="https://cunchu.site/upload/9d17daa1d27a5a81.png")
+      <p><a href="http://leaders.people.com.cn/n1/2019/0903/c178291-31334400.html" target="_blank">关于领导留言板</a>|<a href="http://www.people.com.cn" target="_blank">人民网</a>|<a href="http://leaders.people.com.cn/GB/178291/218130/414212/index.html" target="_blank">客户端下载</a>|<a href="http://leaders.people.com.cn/n1/2017/0103/c409148-28995855.html" target="_blank">关于删帖</a><br>热线：4008-100-300（不受理投诉、留言）<br>邮箱：leader@people.cn</p>
+    .item-2.liuyanban-item
+      h2 帮助中心
+      ul.clearfix
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=1' target='_blank') 新用户必读
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=2' target='_blank') 服务协议
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=3' target='_blank') 留言基础操作
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=4' target='_blank') 如何删除留言
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=5' target='_blank') 企业用户
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=6' target='_blank') 常见问题
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=7' target='_blank') 留言如何迅速得到办理
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=8' target='_blank') 联系我们
+        li
+          a(href='http://liuyan.people.com.cn/help?cat=9' target='_blank') 隐私政策
+        li
+          a(href='http://leaders.people.com.cn/GB/178291/218130/396788/index.html' target='_blank') 各地如何开通办理权限
+    .item-3.liuyanban-item
+      p
+        img(src='http://liuyan.people.com.cn/NMediaFile/2020/0804/MAIN202008041557107458382996789.jpg' width='104' border='0' alt='扫码下载客户端')
+        | 扫码下载客户端
+      p
+        img(src='http://liuyan.people.com.cn/NMediaFile/2020/0804/MAIN202008041557110934776077060.jpg' width='104' border='0' alt='扫码关注公众号')
+        | 扫码关注公众号
+</template>
+
+<style lang="less">
+.liuyanban {
+  padding: 40px 0;
+  background-color: #2f4359;
+}
+.liuyanban-item {
+  float: left;
+}
+.item-3 {
+  p {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    margin: 0 5px;
+    line-height: 25px;
+    img {
+      display: block;
+    }
+  }
+}
+.item-1 {
+  float: left;
+  width: 300px;
+  h2 {
+    padding-bottom: 10px;
+    padding-top: 3px;
+  }
+  a {
+    margin: 0 2px;
+  }
+  a:first-child {
+    margin-left: 0;
+  }
+  p {
+    color: #b3bcc7;
+    line-height: 26px;
+    font-size: 12px;
+  }
+}
+.item-2 {
+  width: 250px;
+  padding-left: 100px;
+  h2 {
+    font-size: 18px;
+    line-height: 48px;
+    padding-bottom: 7px;
+    color: #f6f6f7;
+    font-weight: normal;
+  }
+  ul {
+    width: 100%;
+    color: #666666;
+    line-height: 26px;
+    font-size: 12px;
+    li {
+      width: 50%;
+      float: left;
+    }
+  }
+}
+.item-3 {
+  padding-left: 130px;
+  img {
+    margin: 6px 12px;
+  }
+}
+h2 {
+  font-family: "Microsoft YaHei";
+}
+a {
+  color: #b3bcc7;
+}
+</style>

@@ -265,7 +265,7 @@ li {
 .box_huodong {
   height: 40px;
   background: #efefef;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .box_huodong b {
@@ -301,7 +301,7 @@ li {
   text-decoration: underline;
 }
 .tab-box {
-  margin-top: 20px;
+  margin-top: 30px;
   position: relative;
 }
 
@@ -309,6 +309,7 @@ li {
   line-height: 40px;
   border-bottom: #d73240 2px solid;
   color: black;
+  margin-bottom: 20px;
 }
 
 .tab-box .tab-bar-item {
@@ -336,7 +337,7 @@ li {
 }
 
 .tab-box .tab-conn li {
-  line-height: 50px;
+  line-height: 60px;
   font-size: 18px;
   color: #333;
   border-bottom: 1px dashed #ccc;
@@ -479,13 +480,140 @@ li {
   width: 200px;
   height: 45px;
   text-align: center;
-  line-height: 45px;
-  font-size: 20px;
+  line-height: 47px;
+  font-size: 18px;
   background-color: #e4e3e3;
+  cursor: pointer;
 }
 
 .rank-box .rank-conn {
   border: 1px solid #cccccc;
+}
+
+.rank-box li {
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  margin: 0 10px;
+  border-bottom: 1px dashed #ccc;
+  position: relative;
+  padding-left: 40px;
+}
+
+.rank-box li .ind {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.rank-box li a {
+  color: #333;
+}
+.liuyanban {
+  padding: 40px 0;
+  background-color: #2f4359;
+}
+
+.liuyanban .liuyanban-item {
+  float: left;
+}
+
+.liuyanban .item-3 p {
+  display: inline-block;
+  text-align: center;
+  color: white;
+  margin: 0 5px;
+  line-height: 25px;
+}
+
+.liuyanban .item-3 p img {
+  display: block;
+}
+
+.liuyanban .item-1 {
+  float: left;
+  width: 300px;
+}
+
+.liuyanban .item-1 h2 {
+  padding-bottom: 10px;
+  padding-top: 3px;
+}
+
+.liuyanban .item-1 a {
+  margin: 0 2px;
+}
+
+.liuyanban .item-1 a:first-child {
+  margin-left: 0;
+}
+
+.liuyanban .item-1 p {
+  color: #b3bcc7;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+.liuyanban .item-2 {
+  width: 250px;
+  padding-left: 100px;
+}
+
+.liuyanban .item-2 h2 {
+  font-size: 18px;
+  line-height: 48px;
+  padding-bottom: 7px;
+  color: #f6f6f7;
+  font-weight: normal;
+}
+
+.liuyanban .item-2 ul {
+  width: 100%;
+  color: #666666;
+  line-height: 26px;
+  font-size: 12px;
+}
+
+.liuyanban .item-2 ul li {
+  width: 50%;
+  float: left;
+}
+
+.liuyanban .item-3 {
+  padding-left: 130px;
+}
+
+.liuyanban .item-3 img {
+  margin: 6px 12px;
+}
+
+.liuyanban h2 {
+  font-family: "Microsoft YaHei";
+}
+
+.liuyanban a {
+  color: #b3bcc7;
+}
+#copyright {
+  height: 60px;
+  padding: 40px 0;
+  position: relative;
+  font-size: 14px;
+  height: 60px;
+  color: #ffffff;
+  z-index: 999;
+  width: 100%;
+  line-height: 30px;
+  text-align: center;
+  background-color: #243344;
 }
 .conn.w1200 {
   margin-top: 20px;
@@ -508,5 +636,9 @@ li {
 .lingdao,
 .rank-box {
   margin-top: 30px;
+}
+
+.liuyanban {
+  margin-top: 100px;
 }
 

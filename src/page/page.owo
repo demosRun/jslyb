@@ -27,6 +27,8 @@
       .banner
         a(href='http://leaders.people.com.cn/GB/178291/218130/433251/index.html' target='_blank')
           img(src='http://liuyan.people.com.cn/NMediaFile/2020/0731/MAIN202007311740472340831497571.png' width='412' height='120' border='0' alt='')
+  plug(_name="module189" _src="https://template.owo.ink/73f99a63c2ba2afc.owo")
+  plug(_name="module2" _src="https://template.owo.ink/e5955f0544f6c308.owo")
 </template>
 
 <script>
@@ -56,5 +58,8 @@
 }
 .lingdao, .rank-box {
   margin-top: 30px;
+}
+.liuyanban {
+  margin-top: 100px;
 }
 </style>

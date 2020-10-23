@@ -50,11 +50,37 @@
   width: 200px;
   height: 45px;
   text-align: center;
-  line-height: 45px;
-  font-size: 20px;
+  line-height: 47px;
+  font-size: 18px;
   background-color: #e4e3e3;
+  cursor: pointer;
 }
 .rank-conn {
   border: 1px solid #cccccc;
+}
+li {
+  height: 40px;
+  line-height: 40px;
+  overflow: hidden;
+  margin: 0 10px;
+  border-bottom: 1px dashed #ccc;
+  position: relative;
+  padding-left: 40px;
+  .ind {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    font-size: 15px;
+    color: #333;
+  }
+  a {
+    color: #333;
+  }
 }
 </style>

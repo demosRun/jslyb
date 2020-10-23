@@ -19,7 +19,7 @@
 
 
 <style lang="less">
-.box_huodong{ height:40px; background:#efefef; margin-bottom:20px;}
+.box_huodong{ height:40px; background:#efefef; margin-bottom:30px;}
 .box_huodong b {
   background:#36485e;
   height:40px;
