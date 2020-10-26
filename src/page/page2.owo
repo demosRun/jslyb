@@ -1,0 +1,222 @@
+<template lang="pug">
+.home
+  plug(_name="topBar" _src="./src/page/topBar.owo")
+  plug(_name="liuyanban-topBar" _src="./src/page/liuyanban-topBar.owo")
+  plug(_name="module60" _src="https://template.owo.ink/c2cab888fc67bf34.owo")
+  .conn.w1200.clear
+    .jiangsu-info-bar
+      span.name 江苏省
+      span.info 历史留言总量: <span style="color: #d7323f;">31595</span> 条　历史回复总量: <span style="color: #d7323f;">7851</span> 条
+      .paihang-menu
+        .menu 排行榜
+    //- 人物介绍的卡片
+    .people-card-box.clear
+      .people-card.fl
+        .top
+          span.name 江苏省委书记 娄勤俭
+          span.show-more
+            a(href="#") 查看简历
+        .cent.clear
+          .button.fl(o-hover="shadow")
+            a(href="#") 查看留言
+          .button.fl.red-button(o-hover="shadow")
+            a(href="#") 我要留言
+        .bottom 年度总留言量: <span style="color: #d7323f;">2554</span> 条   年度公开回复量: <span style="color: #d7323f;">1251</span> 条 
+      .people-card.fl
+        .top
+          span.name 江苏省委书记 娄勤俭
+          span.show-more
+            a(href="#") 查看简历
+        .cent.clear
+          .button.fl(o-hover="shadow")
+            a(href="#") 查看留言
+          .button.fl.red-button(o-hover="shadow")
+            a(href="#") 我要留言
+        .bottom 年度总留言量: <span style="color: #d7323f;">2554</span> 条   年度公开回复量: <span style="color: #d7323f;">1251</span> 条
+    .city-box.clear
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+      .city-box-card.fl
+        h3 南京市
+        p 年度总留言量: <span style="color: #d7323f;">1446</span> 条<br>年度公开回复量: <span style="color: #d7323f;">604</span> 条
+    //- 底部说明文字
+    .bottom-info 说明：底部说明说明文字
+  plug(_name="module189" _src="https://template.owo.ink/73f99a63c2ba2afc.owo")
+  plug(_name="module2" _src="https://template.owo.ink/e5955f0544f6c308.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      console.log('s')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.conn.w1200 {
+  margin-top: 20px;
+  background-color: #f8f6f9;
+  .left {
+    width: 750px;
+  }
+  .right {
+    width: 412px;
+  }
+}
+.banner {
+  a, img {
+    display: block;
+    width: 100%;
+  }
+}
+.lingdao, .rank-box {
+  margin-top: 30px;
+}
+.liuyanban {
+  margin-top: 100px;
+}
+.jiangsu-info-bar {
+  background-color: #f8f6f9;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 10px;
+  position: relative;
+  .name {
+    font-size: 20px;
+    margin: 0 10px;
+    font-weight: bold;
+  }
+  .info {
+    font-size: 14px;
+    color: #333;
+  }
+}
+.paihang-menu {
+  background-image: url('@|paihang-icon.png|');
+  background-repeat: no-repeat;
+  position: absolute;
+  padding-left: 30px;
+  height: 40px;
+  background-position: left center;
+  line-height: 40px;
+  right: 50px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+}
+.people-card-box {
+  .people-card {
+    width: 540px;
+    height: 160px;
+    background-color: #eff1f7;
+    margin: 10px;
+    padding: 20px;
+  }
+  .top {
+    line-height: 40px;
+    font-size: 16px;
+    .name {
+      margin-right: 20px;
+      font-weight: bold;
+      font-family: "Microsoft YaHei";
+    }
+    .show-more {
+      a {
+        color: #d7323f;
+      }
+    }
+  }
+  .cent {
+    
+    .button {
+      width: 130px;
+      height: 35px;
+      text-align: center;
+      line-height: 35px;
+      background-color: white;
+      border-radius: 5px;
+      margin: 20px 25px 20px 0;
+      font-size: 15px;
+      border: 1px solid #e2e2e2;
+      a {
+        color: #a7a3a7;
+        display: block;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .red-button {
+      background-color: #d7323f;
+      color: white;
+      border: 1px solid #d7323f;
+      a {
+        color: white;
+      }
+    }
+  }
+  .bottom {
+    line-height: 40px;
+    font-size: 16px;
+  }
+}
+.city-box {
+  margin: 10px 0;
+}
+.city-box-card {
+  background-color: white;
+  width: 178px;
+  height: 100px;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #d9d8d8;
+  h3 {
+    line-height: 40px;
+    font-size: 20px;
+  }
+  p {
+    line-height: 22px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+}
+.bottom-info {
+  padding: 0 20px;
+  line-height: 40px;
+  text-align: right;
+  color: #333;
+}
+</style>

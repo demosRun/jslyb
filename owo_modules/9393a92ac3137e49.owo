@@ -61,9 +61,9 @@
   .swiper-wrapper .text {
     position: absolute;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.6);
     color: white;
-    line-height: 40px;
+    line-height: 45px;
     padding: 0 1%;
     width: 98%;
     font-size: 15px;

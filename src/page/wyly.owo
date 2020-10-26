@@ -84,6 +84,9 @@
     color: #666;
   }
 }
+.show-more:hover {
+  background-color: antiquewhite;
+}
 .time {
   position: absolute;
   right: 25px;
