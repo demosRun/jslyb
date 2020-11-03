@@ -1,0 +1,433 @@
+<template lang="pug">
+.home
+  plug(_name="topBar" _src="./src/page/topBar.owo")
+  plug(_name="liuyanban-topBar" _src="./src/page/liuyanban-topBar.owo")
+  plug(_name="module60" _src="https://template.owo.ink/c2cab888fc67bf34.owo")
+  .conn.w1200.clear
+    .left.fl
+      h2 回复反馈
+      ul
+        li
+          a(href='/n1/2020/0721/c178291-31791720.html' target='_blank') 人民网《领导留言板》湖南版块：岳阳回复率超100%
+        li
+          a(href='/n1/2020/0717/c178291-31788030.html' target='_blank') 人民网《领导留言板》海南版块上半年留言1102件 回复率6…
+        li
+          a(href='/n1/2020/0717/c178291-31788021.html' target='_blank') 人民网《领导留言板》江苏版块留言4823件 宿迁、徐州零回复
+        li
+          a(href='/n1/2020/0715/c178291-31784262.html' target='_blank') 《领导留言板》青海版块上半年留言回复率86.5% 果洛州零…
+        li
+          a(href='/n1/2020/0715/c178291-31784247.html' target='_blank') 《领导留言板》河北版块：部分市县区回复率超100%
+        li
+          a(href='/n1/2020/0714/c178291-31783138.html' target='_blank') 2020年上半年湖北网民最关心医疗、城建问题
+        li
+          a(href='/n1/2020/0714/c178291-31783113.html' target='_blank') 人民网《领导留言板》上半年数据出炉 湖北两地市回复率不足1成
+        li
+          a(href='/n1/2020/0714/c178291-31782848.html' target='_blank')
+            | 2020年上半年《领导留言板》浙江版块留言2967件
+            | 绍兴…
+        li
+          a(href='/n1/2020/0714/c178291-31782794.html' target='_blank') 河南网民留言办理工作数据“出炉”
+        li
+          a(href='/n1/2020/0714/c178291-31782763.html' target='_blank') 河南办理网民留言3.56万件 回复率近九成
+        li
+          a(href='/n1/2020/0709/c178291-31777766.html' target='_blank') 2020年上半年内蒙古办理回复《领导留言板》数据报告发布
+        li
+          a(href='/n1/2020/0708/c178291-31775883.html' target='_blank') 上半年1697条给山西省委书记的网民留言获回应
+        li
+          a(href='/n1/2020/0507/c178291-31700164.html' target='_blank') 网友给吉林省委书记留言获回复 共计16条
+        li
+          a(href='/n1/2020/0421/c178291-31682356.html' target='_blank') 网友给吉林省委书记留言获回复 共计72条
+        li
+          a(href='/n1/2020/0310/c178291-31625506.html' target='_blank') 《领导留言板》助力全民战“疫”
+        li
+          a(href='/n1/2020/0309/c178291-31623145.html' target='_blank') 网友给吉林省委书记留言获回复 共计77条
+        li
+          a(href='/n1/2020/0303/c178291-31613828.html' target='_blank') 湖北确保全省办理留言不掉线 请放心写下您的好建议
+        li
+          a(href='/n1/2020/0123/c178291-31560815.html' target='_blank') 网友给新乡市市长留言获回复 共计37条
+        li
+          a(href='/n1/2020/0123/c178291-31560750.html' target='_blank') 网友给太原市市长留言获回复 共计70条
+        li
+          a(href='/n1/2020/0121/c178291-31558180.html' target='_blank') 网友给武威市委书记留言获回复 共计58条
+        li
+          a(href='/n1/2020/0121/c178291-31558052.html' target='_blank') 网友买房被开发商“忽悠” 一条留言维权成功
+        li
+          a(href='/n1/2020/0121/c178291-31557862.html' target='_blank') 网友给甘肃省委书记留言获回复 共计51条
+        li
+          a(href='/n1/2020/0120/c178291-31556674.html' target='_blank') 网友给长春市委书记留言获回复 共计60条
+        li
+          a(href='/n1/2020/0120/c178291-31556639.html' target='_blank') 网友投诉“马路市场”占道经营 当地开展集中整治
+        li
+          a(href='/n1/2020/0120/c178291-31556619.html' target='_blank') 网友给山东省委书记、省长留言获回复 共计81条
+        li
+          a(href='/n1/2020/0120/c178291-31556612.html' target='_blank') 网友给四川省委书记、省长留言获回复 共计59条
+        li
+          a(href='/n1/2020/0120/c178291-31556480.html' target='_blank') 网友给云南省委书记、省长留言获回复 共计65条
+        li
+          a(href='/n1/2020/0120/c178291-31556455.html' target='_blank') 网友给太原市市长留言获回复 共计62条
+        li
+          a(href='/n1/2020/0119/c178291-31555086.html' target='_blank') 网友给福建省委书记留言获回复 共计46条
+        li
+          a(href='/n1/2020/0119/c178291-31555075.html' target='_blank') 网友给安徽省委书记、省长留言获回复 共计97条
+        li
+          a(href='/n1/2020/0119/c178291-31554898.html' target='_blank') 网友给平顶山市委书记、市长留言获回复 共计55条
+        li
+          a(href='/n1/2020/0119/c178291-31554884.html' target='_blank') 网友投诉违规占道噪音扰民 物流公司负责人被约谈
+        li
+          a(href='/n1/2020/0119/c178291-31554864.html' target='_blank') 网友给铜陵市委书记留言获回复 共计22条
+        li
+          a(href='/n1/2020/0117/c178291-31552928.html' target='_blank') 网友多次讨薪无果 当地回复：确保支付到位
+        li
+          a(href='/n1/2020/0117/c178291-31552887.html' target='_blank') 网友给南宁市委书记、市长留言获回复 共计41条
+        li
+          a(href='/n1/2020/0117/c178291-31552859.html' target='_blank') 网友给兰州市委书记、市长留言获回复 共计53条
+        li
+          a(href='/n1/2020/0116/c178291-31550824.html' target='_blank') 网友给太原市市长留言获回复 共计43条
+        li
+          a(href='/n1/2020/0116/c178291-31550801.html' target='_blank') 网友给合肥市委书记留言获回复 共计26条
+        li
+          a(href='/n1/2020/0116/c178291-31550785.html' target='_blank') 网友给平顶山市委书记、市长留言获回复 共计21条
+        li
+          a(href='/n1/2020/0114/c178291-31546990.html' target='_blank') 网友给云南省委书记、省长留言获回复 共计130条
+        li
+          a(href='/n1/2020/0114/c178291-31546959.html' target='_blank') 网友给福建省委书记、省长留言获回复 共计80条
+        li
+          a(href='/n1/2020/0114/c178291-31546941.html' target='_blank') 网友给甘肃省委书记、省长留言获回复 共计85条
+        li
+          a(href='/n1/2020/0113/c178291-31545041.html' target='_blank') 网友给内蒙古自治区党委书记、主席留言获回复 共计57条
+        li
+          a(href='/n1/2020/0113/c178291-31545011.html' target='_blank') 网友给安徽省委书记、省长留言获回复 共计71条
+        li
+          a(href='/n1/2020/0113/c178291-31544996.html' target='_blank') 网友给北京市委书记、市长留言获回复 共计88条
+        li
+          a(href='/n1/2020/0110/c178291-31542472.html' target='_blank') 网友给云南省委书记、省长留言获回复 共计40条 
+        li
+          a(href='/n1/2020/0110/c178291-31542460.html' target='_blank') 网友给武威市委书记留言获回复 共计30条
+        li
+          a(href='/n1/2020/0110/c178291-31542444.html' target='_blank') 网友给山东省委书记留言获回复 共计137条
+
+    .right.fr
+      h2 网友反馈
+      ul#fankui
+        li
+          h3
+            span
+              em.blue W***
+              | 对    
+              em.red
+                a(href='http://liuyan.people.com.cn/list.php?fid=584' target='_blank') 四川省省长尹力
+              |   有话说
+            i.grey1 2020-11-01 18:15
+          p.grey1
+            | 尊敬的领导：我是荣县旭阳镇大井村7组打罗湾村民卿XX，关于狮子湾高岭土有限公司的事情，旭阳镇镇政府安办主任易田兵，已帮我...
+            span
+              a(href='http://liuyan.people.com.cn/thread.php?tid=8517666' target='_blank') ［查看全文］
+        li
+          h3
+            span
+              em.blue W***
+              | 对    
+              em.red
+                a(href='http://liuyan.people.com.cn/list.php?fid=591' target='_blank') 陕西省委书记刘国中
+              |   有话说
+            i.grey1 2020-11-01 16:58
+          p.grey1
+            | 尊敬的书记您好！我是陕西省洛南县灵口镇岭底村石庄组西沟的村民，关于10月29日向您反应的村、镇领导下乡调查问题，态度差，...
+            span
+              a(href='http://liuyan.people.com.cn/thread.php?tid=8517393' target='_blank') ［查看全文］
+        li
+          h3
+            span
+              em.blue W***
+              | 对    
+              em.red
+                a(href='http://liuyan.people.com.cn/list.php?fid=866' target='_blank') 乌兰察布市市长费东斌
+              |   有话说
+            i.grey1 2020-11-01 16:41
+          p.grey1
+            | 我是一名前旗万和小区的B区业主，在今年交房领钥匙时发现被一房两卖，开发商和我们协商，以现金的方式回购，房子留给了对方。可...
+            span
+              a(href='http://liuyan.people.com.cn/thread.php?tid=8517331' target='_blank') ［查看全文］
+        li
+          h3
+            span
+              em.blue j***
+              | 对    
+              em.red
+                a(href='http://liuyan.people.com.cn/list.php?fid=556' target='_blank') 上海市市长龚正
+              |   有话说
+            i.grey1 2020-11-01 16:04
+          p.grey1
+            | 尊敬的领导，您好！
+            | 上一条留言之后，政府在百忙之中非常迅速地给与了反馈，让人深受感动。在此衷心感谢市政府领导对市民的关心...
+            span
+              a(href='http://liuyan.people.com.cn/thread.php?tid=8517217' target='_blank') ［查看全文］
+        li
+          h3
+            span
+              em.blue 云***
+              | 对    
+              em.red
+                a(href='http://liuyan.people.com.cn/list.php?fid=1353' target='_blank') 拉萨市委书记白玛旺堆
+              |   有话说
+            i.grey1 2020-11-01 10:00
+          p.grey1
+            | 昨日求助购买天珠退货一事，藏地传奇已第一时间联系我，并积极办理了退款，藏族文化我不甚了解，但店家的售后...
+            span
+              a(href='http://liuyan.people.com.cn/thread.php?tid=8515674' target='_blank') ［查看全文］
+        li
+          h3
+            span
+              em.blue 伸***
+              | 对    
+              em.red
+                a(href='http://liuyan.people.com.cn/list.php?fid=3851' target='_blank') 五寨县委书记
+              |   有话说
+            i.grey1 2020-11-01 00:06
+          p.grey1
+            | 10月13日人民网《领导留言版》一封巜求助》函转发后，得到了贵县领导和社保局的高度重视，他们迅速到五寨隆泰振越公司调查核...
+            span
+              a(href='http://liuyan.people.com.cn/thread.php?tid=8514751' target='_blank') ［查看全文］
+        li
+          h3
+            span
+              em.blue X***
+              | 对    
+              em.red
+                a(href='http://liuyan.people.com.cn/list.php?fid=539' target='_blank') 北京市委书记蔡奇
+              |   有话说
+            i.grey1 2020-10-31 22:45
+          p.grey1
+            | 我家住通州区新华东街48号院北人家园，2020年10月23日上午发生燃气故障，我拨打96777报修，随后燃气公司工作人员...
+            span
+              a(href='http://liuyan.people.com.cn/thread.php?tid=8514502' target='_blank') ［查看全文］
+        li
+          h3
+            span
+              em.blue Z***
+              | 对    
+              em.red
+                a(href='http://liuyan.people.com.cn/list.php?fid=585' target='_blank') 贵州省委书记孙志刚
+              |   有话说
+            i.grey1 2020-10-31 21:25
+          p.grey1
+            | 感谢贵州省人民政府为民做主，使问题得以解决
+            span
+              a(href='http://liuyan.people.com.cn/thread.php?tid=8514166' target='_blank') ［查看全文］
+        li
+          h3
+            span
+              em.blue 旁***
+              | 对    
+              em.red
+                a(href='http://liuyan.people.com.cn/list.php?fid=2976' target='_blank') 喀什市委书记
+              |   有话说
+            i.grey1 2020-10-31 21:01
+          p.grey1
+            | 领导你好，关于疏勒县人民医院农民工工资的问题已解决，院方和施工队已解决感谢领导的关心厚爱最后附工资放表一份
+            span
+              a(href='http://liuyan.people.com.cn/thread.php?tid=8514072' target='_blank') ［查看全文］
+        li
+          h3
+            span
+              em.blue W***
+              | 对    
+              em.red
+                a(href='http://liuyan.people.com.cn/list.php?fid=549' target='_blank') 辽宁省委书记张国清
+              |   有话说
+            i.grey1 2020-10-31 18:27
+          p.grey1
+            | 业主多次反映府城名著违建，白塔街道答复与开发商，物业部分业主协商，按浑南区三不原则承认合法。大家欢心鼓舞，不知道三不原则...
+            span
+              a(href='http://liuyan.people.com.cn/thread.php?tid=8513508' target='_blank') ［查看全文]
+      .clearfix.M-box.page_n2
+        a.prev(href='javascript:;') 上页
+        a(href='javascript:;' data-page='1') 首页
+        span ...
+        a(href='javascript:;' data-page='3') 3
+        a(href='javascript:;' data-page='4') 4
+        a(href='javascript:;' data-page='5') 5
+        span.active 6
+        a(href='javascript:;' data-page='7') 7
+        span ...
+        a(href='javascript:;' data-page='10') 末页
+        a.next(href='javascript:;') 下页
+        input.jump-ipt(type='text')
+        a.jump-btn(href='javascript:;') 跳转
+  plug(_name="module189" _src="https://template.owo.ink/73f99a63c2ba2afc.owo")
+  plug(_name="module2" _src="https://template.owo.ink/e5955f0544f6c308.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      console.log('s')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.conn.w1200 {
+  margin-top: 20px;
+  
+  .left {
+    width: 570px;
+    background-color: #f8f6f9;
+    border-bottom: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    ul {
+      padding: 30px;
+    }
+    li {
+      line-height: 40px;
+      font-size: 15px;
+      border-bottom: 1px dashed #d8d8d9;
+      background-image: url('@|doit2.png|');
+      background-repeat: no-repeat;
+      background-position: left center;
+      padding-left: 20px;
+      a {
+        color: #323232;
+      }
+    }
+  }
+  .right {
+    width: 570px;
+    background-color: #f8f6f9;
+    border-bottom: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    li {
+      padding: 25px;
+      border-bottom: 1px solid #dfdfdf;
+      p {
+        color: #6e757f;
+        font-size: 14px;
+        line-height: 22px;
+        margin-top: 10px;
+        span {
+          display: block;
+          text-align: right;
+          a {
+            color: #6e757f;
+          }
+        }
+      }
+      h3 {
+        font-size: 16px;
+        line-height: 32px;
+      }
+      h3:after {
+        content: "";
+        height: 0;
+        line-height: 0;
+        display: block;
+        visibility: hidden;
+        clear: both;
+      }
+    }
+    em {
+      margin-right: 15px;
+      font-style: normal;
+    }
+    i.grey1 {
+      font-size: 12px;
+      font-style: normal;
+      color: #9f9f9f;
+      float: right;
+      font-weight: normal;
+    }
+  }
+  h2 {
+    height: 60px;
+    line-height: 60px;
+    background-color: #e9e9e9;
+    color: #d73240;
+    font-size: 20px;
+    padding: 0 20px;
+    display: block;
+  }
+}
+.M-box {
+  margin: 20px 0;
+}
+.M-box,.M-box1,.M-box2,.M-box3{
+	position: relative;
+  text-align: center;
+  zoom: 1;
+}
+.M-box:before,.M-box:after,.M-box1:before,.M-box1:after ,.M-box2:before,.M-box2:after ,.M-box3:before,.M-box3:after{
+  content:"";
+  display:table;
+}
+.M-box:after,.M-box1:after,.M-box2:after,.M-box3:after{
+	clear:both;
+	overflow:hidden;
+}
+.M-box span,.M-box1 span,.M-box2 span,.M-box3 span{
+	float: none;
+	display: inline-block;
+	margin:0 2px;
+	width: 30px;
+  height: 28px;
+  line-height: 28px;
+  color: #bdbdbd;
+  font-size: 14px;
+}
+.M-box .active,.M-box1 .active,.M-box2 .active,.M-box3 .active{
+	float: none;
+	display: inline-block;
+	margin:0 2px;
+	width: 30px;
+  height: 28px;
+  line-height: 28px;
+  background: #d73240;
+  color: #fff;
+  font-size: 14px;
+  border: 1px solid #e91e63;
+}
+.M-box a,.M-box1 a,.M-box2 a,.M-box3 a{
+	float: none;
+	display: inline-block;
+	margin:0 2px;
+	width: 30px;
+  height: 28px;
+  line-height: 28px;
+  background: #fff;
+  border: 1px solid #ebebeb;
+  color: #bdbdbd;
+  font-size: 14px;
+}
+.M-box a:hover,.M-box1 a:hover,.M-box2 a:hover,.M-box3 a:hover{
+	color:#fff;
+  background: #d73240;
+}
+.M-box .next,.M-box .prev,.M-box1 .next,.M-box1 .prev{
+	font-family: "Simsun";
+  font-size: 14px;
+  font-weight: normal;
+}
+.now,.count{
+	padding:0 5px;
+	color:#f00;
+}
+.jump-ipt{
+  float: none;
+	display: inline-block;
+  margin:0 5px;
+  width: 30px;
+  height: 28px;
+  line-height: 28px;
+  text-align: center;
+  background: #fff;
+  border: 1px solid #ebebeb;
+  outline: none;
+  color: #bdbdbd;
+  font-size: 14px;
+}
+.liuyanban {
+  margin-top: 40px;
+}
+</style>

@@ -86,3 +86,19 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 .mt20 {
   margin-top: 20px;
 }
+
+.blue, .blue a:link, .blue a:visited, .blue a:hover {
+  color: #1d70b6;
+}
+
+.red, .red a:link, .red a:visited, .red a:hover {
+  color: #d73240;
+}
+
+.grey3, .grey3 a:link, .grey3 a:visited, .grey3 a:hover {
+  color: #9b9a9a;
+}
+
+.grey1, .grey1 a:link, .grey1 a:visited, .grey1 a:hover {
+  color: #6e757f;
+}

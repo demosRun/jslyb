@@ -54,11 +54,11 @@
 .nav01 .fr a {
   padding: 0 5px;
 }
-.nav01 .fl span.wxh,.nav01 .fl span.xcx{
+.nav01 .fl span.wxh, .nav01 .fl span.xcx {
   position: relative;
   display: inline-block;
 }
-.nav01 .fl span.wxh i,.nav01 .fl span.xcx i{
+.nav01 .fl span.wxh i, .nav01 .fl span.xcx i {
 	display: none;
   position: absolute;
   top: 37px;

@@ -2,7 +2,6 @@ body, html, .page, .page-box {
   padding: 0;
   margin: 0;
   width: 100%;
-  min-height: 100%;
 }
 
 .owo-animation {
@@ -190,19 +189,132 @@ li {
   height: 56px;
   float: left;
   line-height: 56px;
-}/* Shadow */
-[o-hover="shadow"] {
-  display: inline-block;
-  vertical-align: middle;
-  transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  transition-duration: 0.3s;
-  transition-property: box-shadow;
 }
-[o-hover="shadow"]:hover, [o-hover="shadow"]:focus, [o-hover="shadow"]:active {
-  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+.zhishu_con03 {
+  margin: 30px auto;
 }
 
+.zhishu_con03 h2 {
+  background: url('http://leaders.people.com.cn/img/MAIN/2016/12/117070/images/zs01.gif') center no-repeat;
+  height: 28px;
+}
+
+.zhishu_con03 h2 b {
+  float: left;
+  font: normal 24px/28px "微软雅黑";
+  padding-left: 30px;
+}
+
+.zhishu_con03 .box {
+  margin: 30px auto;
+}
+
+.zhishu_con03 .fl {
+  width: 455px;
+  padding-left: 20px;
+}
+
+.zhishu_con03 .fr {
+  width: 650px;
+  padding-right: 20px;
+}
+
+.zhishu_con03 .fr b {
+  font: bold 20px/140% "微软雅黑";
+  display: block;
+  border-bottom: #f3f3f3 1px solid;
+  padding: 10px 0 20px;
+  margin-bottom: 15px;
+}
+
+.zhishu_con03 .fr p {
+  font-size: 14px;
+  text-indent: 2em;
+  line-height: 200%;
+}
+
+.zhishu_con03 h2 i {
+  float: right;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 28px;
+  font-weight: normal;
+  padding-right: 20px;
+}
+.paihang-card h2 {
+  font: bold 20px/60px "微软雅黑";
+  text-align: center;
+}
+
+.paihang-card {
+  width: 568px;
+  border: #e0e0e0 1px solid;
+  border-top: none;
+}
+
+.paihang-card h3 {
+  border-bottom: #e0e0e0 1px solid;
+  height: 50px;
+  background: #e0e0e0;
+}
+
+.paihang-card h3 i {
+  text-align: center;
+  font-size: 14px;
+  background: #ececec;
+  height: 50px;
+  display: block;
+  line-height: 50px;
+  float: left;
+  width: 188px;
+  margin-left: 1px;
+}
+
+.paihang-card h3 i.t01 {
+  background: #fff;
+}
+
+.paihang-card ol {
+  background: url('https://cunchu.site/upload/8fed82c9c5a191a7.gif') top center no-repeat;
+  width: 568px;
+}
+
+.paihang-card ol li {
+  height: 47px;
+  line-height: 47px;
+  font-size: 14px;
+  padding-left: 60px;
+}
+
+.paihang-card ol li i {
+  padding: 0 20px;
+  width: 100px;
+  display: block;
+  float: left;
+}
+
+.paihang-card ol li em {
+  padding: 0 20px;
+  width: 200px;
+  display: block;
+  float: left;
+}
+
+.paihang-card ol li span {
+  padding: 0 20px;
+  width: 80px;
+  display: block;
+  float: left;
+}
+
+.paihang-card em,
+.paihang-card i {
+  font-style: normal;
+}
+
+.paihang-card a {
+  color: #282828;
+}
 .liuyanban {
   padding: 40px 0;
   background-color: #2f4359;
@@ -235,7 +347,7 @@ li {
 }
 
 .liuyanban .item-1 a {
-  margin: 0 2px;
+  margin: 0 5px;
 }
 
 .liuyanban .item-1 a:first-child {
@@ -307,151 +419,19 @@ li {
 }
 .conn.w1200 {
   margin-top: 20px;
-  background-color: #f8f6f9;
 }
 
-.conn.w1200 .left {
-  width: 750px;
-}
-
-.conn.w1200 .right {
-  width: 412px;
-}
-
-.banner a,
-.banner img {
-  display: block;
-  width: 100%;
-}
-
-.lingdao,
-.rank-box {
-  margin-top: 30px;
-}
-
-.liuyanban {
-  margin-top: 100px;
-}
-
-.jiangsu-info-bar {
-  background-color: #f8f6f9;
-  height: 45px;
-  line-height: 45px;
-  padding: 0 10px;
-  position: relative;
-}
-
-.jiangsu-info-bar .name {
-  font-size: 20px;
-  margin: 0 10px;
-  font-weight: bold;
-}
-
-.jiangsu-info-bar .info {
-  font-size: 14px;
-  color: #333;
-}
-
-.paihang-menu {
-  background-image: url('../resource/paihang-icon.png');
-  background-repeat: no-repeat;
-  position: absolute;
-  padding-left: 30px;
-  height: 40px;
-  background-position: left center;
-  line-height: 40px;
-  right: 50px;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  cursor: pointer;
-}
-
-.people-card-box .people-card {
-  width: 540px;
-  height: 160px;
-  background-color: #eff1f7;
-  margin: 10px;
-  padding: 20px;
-}
-
-.people-card-box .top {
-  line-height: 40px;
-  font-size: 16px;
-}
-
-.people-card-box .top .name {
-  margin-right: 20px;
-  font-weight: bold;
-  font-family: "Microsoft YaHei";
-}
-
-.people-card-box .top .show-more a {
-  color: #d7323f;
-}
-
-.people-card-box .cent .button {
-  width: 130px;
-  height: 35px;
-  text-align: center;
-  line-height: 35px;
-  background-color: white;
-  border-radius: 5px;
-  margin: 20px 25px 20px 0;
-  font-size: 15px;
-  border: 1px solid #e2e2e2;
-}
-
-.people-card-box .cent .button a {
-  color: #a7a3a7;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.people-card-box .cent .red-button {
-  background-color: #d7323f;
-  color: white;
-  border: 1px solid #d7323f;
-}
-
-.people-card-box .cent .red-button a {
+.paihang-card.fl h2 {
+  background-color: #ff573b;
   color: white;
 }
 
-.people-card-box .bottom {
-  line-height: 40px;
-  font-size: 16px;
+.paihang-card.fr h2 {
+  background-color: #ff983c;
+  color: white;
 }
 
-.city-box {
-  margin: 10px 0;
-}
-
-.city-box-card {
-  background-color: white;
-  width: 178px;
-  height: 100px;
-  padding: 20px;
-  margin: 10px;
-  border: 1px solid #d9d8d8;
-}
-
-.city-box-card h3 {
-  line-height: 40px;
-  font-size: 20px;
-}
-
-.city-box-card p {
-  line-height: 22px;
-  margin-top: 5px;
-  font-size: 14px;
-}
-
-.bottom-info {
-  padding: 0 20px;
-  line-height: 40px;
-  text-align: right;
-  color: #333;
+.zhishu_con02 {
+  padding-bottom: 50px;
 }
 

@@ -61,12 +61,12 @@
 	],
 	"scriptList": [
 		{
-			"name": "idangerous.swiper2.7.6.min",
-			"src": "https://cunchu.site/owo/script/idangerous.swiper2.7.6.min.js"
-		},
-		{
 			"name": "jquery1.11.0",
 			"src": "https://cunchu.site/owo/script/jquery-1.11.1.min.js"
+		},
+		{
+			"name": "jquery.pagination.js",
+			"src": "http://leaders.people.com.cn/img/MAIN/2016/12/117070/js/jquery.pagination.js"
 		},
 		{
 			"name": "main",
@@ -79,16 +79,12 @@
 			"name": "main",
 			"src": "./src/main.css",
 			"resource": true
-		},
-		{
-			"name": "idangerous.swiper2.7.6",
-			"src": "https://cunchu.site/owo/style/idangerous.swiper2.7.6.css"
 		}
 	],
 	"pageList": [
 		{
 			"name": "page",
-			"src": "./src/page/page2.owo",
+			"src": "./src/page/page4.owo",
 			"type": "page"
 		}
 	],

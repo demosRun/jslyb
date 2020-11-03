@@ -1,0 +1,54 @@
+<template lang="pug">
+.clearfix.zhishu_con03.w1200
+  h2.clearfix
+    b 数据报告
+    i.grey3
+      a(href='/GB/178291/409148/412410/index.html' target='_blank') |  更多
+  .clearfix.box
+    .fl
+      img(src='http://leaders.people.com.cn/NMediaFile/2020/1016/MAIN202010161740222594464416760.jpg' width='464' height='258' border='0' alt='9月份各级领导干部回应留言6万件 形式主义等话题受关注\
+      9月，各级领导干部答复网民留言6万多件。\
+      新增市县领导干部33位，涉及河北、江苏、浙江等10个省份。\
+      有20多家职能单位入驻，涉及江苏、重庆、陕西等8个省份。\
+      网民关注了生活垃圾分类、黄河流域生态保护与高质量发展、健康文明饮食、形式主义等热点话题。\
+      [查看全文]')
+    .fr.grey1
+      b 9月份各级领导干部回应留言6万件 形式主义等话题受关注
+      p.text
+        | 9月，各级领导干部答复网民留言6万多件。
+      p.text
+        | 新增市县领导干部33位，涉及河北、江苏、浙江等10个省份。
+        br
+      p.text
+        | 有20多家职能单位入驻，涉及江苏、重庆、陕西等8个省份。
+      p.text
+        | 网民关注了生活垃圾分类、黄河流域生态保护与高质量发展、健康文明饮食、形式主义等热点话题。
+      p.text
+        a(href='http://leaders.people.com.cn/n1/2020/1016/c178291-31894781.html') [查看全文]
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less" original>
+.zhishu_con03 { margin:30px auto;}
+.zhishu_con03 h2{ background:url('http://leaders.people.com.cn/img/MAIN/2016/12/117070/images/zs01.gif') center no-repeat; height:28px;}
+.zhishu_con03 h2 b{ float:left; font:normal 24px/28px "微软雅黑"; padding-left:30px;}
+.zhishu_con03 .box{ margin:30px auto;}
+.zhishu_con03 .fl{ width:455px; padding-left:20px;}
+.zhishu_con03 .fr{ width:650px; padding-right:20px;}
+.zhishu_con03 .fr b{ font:bold 20px/140% "微软雅黑"; display:block; border-bottom:#f3f3f3 1px solid; padding:10px 0 20px; margin-bottom:15px;}
+.zhishu_con03 .fr p{ font-size:14px; text-indent:2em; line-height:200%;}
+.zhishu_con03 h2 i {
+  float: right;
+  font-size: 12px;
+  font-style: normal;
+  line-height: 28px;
+  font-weight: normal;
+  padding-right: 20px;
+}
+</style>

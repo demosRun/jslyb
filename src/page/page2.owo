@@ -7,8 +7,10 @@
     .jiangsu-info-bar
       span.name 江苏省
       span.info 历史留言总量: <span style="color: #d7323f;">31595</span> 条　历史回复总量: <span style="color: #d7323f;">7851</span> 条
+      //- 排行榜
       .paihang-menu
         .menu 排行榜
+        plug(_name="paihang" _src="./src/modules/paihang.owo")
     //- 人物介绍的卡片
     .people-card-box.clear
       .people-card.fl
@@ -132,11 +134,20 @@
   height: 40px;
   background-position: left center;
   line-height: 40px;
-  right: 50px;
+  right: 10px;
   top: 0;
   bottom: 0;
   margin: auto;
   cursor: pointer;
+  width: 80px;
+  .paihang {
+    display: none;
+  }
+}
+.paihang-menu:hover {
+  .paihang {
+    display: block;
+  }
 }
 .people-card-box {
   .people-card {
@@ -211,6 +222,7 @@
     line-height: 22px;
     margin-top: 5px;
     font-size: 14px;
+    color: #7a7a7a;
   }
 }
 .bottom-info {

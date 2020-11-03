@@ -1,0 +1,193 @@
+<template lang="pug">
+.paihang
+  ul.tab-box
+    li 留言排行
+    li 回复排行
+    li 回复率排行
+  .conn-box
+    ul.conn-item
+      li
+        .index 1
+        span 测试的文字内容
+        i 1105
+      li
+        .index 2
+        span 测试的文字内容
+        i 1105
+      li
+        .index 3
+        span 测试的文字内容
+        i 1105
+      li
+        .index 4
+        span 测试的文字内容
+        i 1105
+      li
+        .index 5
+        span 测试的文字内容
+        i 1105
+      li
+        .index 6
+        span 测试的文字内容
+        i 1105
+      li
+        .index 7
+        span 测试的文字内容
+        i 1105
+      li
+        .index 8
+        span 测试的文字内容
+        i 1105
+      li
+        .index 9
+        span 测试的文字内容
+        i 1105
+      li
+        .index 10
+        span 测试的文字内容
+        i 1105
+    ul.conn-item
+      li
+        .index 1
+        span 测试的文字内容2
+        i 1105
+      li
+        .index 2
+        span 测试的文字内容2
+        i 1105
+      li
+        .index 3
+        span 测试的文字内容2
+        i 1105
+      li
+        .index 4
+        span 测试的文字内容2
+        i 1105
+      li
+        .index 5
+        span 测试的文字内容2
+        i 1105
+      li
+        .index 6
+        span 测试的文字内容2
+        i 1105
+      li
+        .index 7
+        span 测试的文字内容2
+        i 1105
+      li
+        .index 8
+        span 测试的文字内容2
+        i 1105
+      li
+        .index 9
+        span 测试的文字内容2
+        i 1105
+      li
+        .index 10
+        span 测试的文字内容2
+        i 1105
+    ul.conn-item
+      li
+        .index 1
+        span 测试的文字内容
+        i 1105
+      li
+        .index 2
+        span 测试的文字内容
+        i 1105
+      li
+        .index 3
+        span 测试的文字内容
+        i 1105
+      li
+        .index 4
+        span 测试的文字内容
+        i 1105
+      li
+        .index 5
+        span 测试的文字内容
+        i 1105
+      li
+        .index 6
+        span 测试的文字内容
+        i 1105
+      li
+        .index 7
+        span 测试的文字内容
+        i 1105
+      li
+        .index 8
+        span 测试的文字内容
+        i 1105
+      li
+        .index 9
+        span 测试的文字内容
+        i 1105
+      li
+        .index 10
+        span 测试的文字内容
+        i 1105
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style lang="less">
+.paihang {
+  position: absolute;
+  width: 300px;
+  background-color: white;
+  border: 1px solid #d5d5d5;
+  right: 40px;
+  z-index: 9;
+  box-shadow: 1px 1px 6px #ccc;
+  border-radius: 3px;
+}
+.tab-box {
+  background-color: #eaeaea;
+  li {
+    display: inline-block;
+    width: 33.3%;
+    text-align: center;
+  }
+  .active {
+    background-color: white;
+  }
+}
+.index {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+  background-color: #808080;
+  color: white;
+  margin: 5px;
+}
+.conn-item {
+  li {
+    margin: 0 10px;
+    text-align: center;
+    border-bottom: 1px dashed #ccc;
+  }
+  li:last-child { 
+    border-bottom: none;
+  }
+  li:nth-child(-n+3) .index {
+    background-color: #d73240;
+  }
+  span {
+    display: inline-block;
+    width: calc(100% - 75px);
+    color: #333;
+  }
+  i {
+    font-style: normal;
+  }
+}
+</style>

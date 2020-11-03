@@ -1,0 +1,347 @@
+<template lang="pug">
+.box.clearfix.paihang-card
+  h2.white 副省、地市级领导干部排行榜
+  h3
+    i#tt2_1.t01(onclick='showmen_zs2(1)' style='cursor:pointer') 留言排行
+    i#tt2_2(onclick='showmen_zs2(2)' style='cursor:pointer') 回复排行
+    i#tt2_3(onclick='showmen_zs2(3)' style='cursor:pointer') 回复率排行
+  ol#con2_1.clearfix(style='display: block')
+    li
+      i 西安市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1367' target='_blank') 西安市委书记王浩
+      span 1390
+    li
+      i 太原市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=828' target='_blank') 太原市市长张新伟(代）
+      span 520
+    li
+      i 西安市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1368' target='_blank') 西安市市长李明远
+      span 495
+    li
+      i 成都市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1289' target='_blank') 成都市委书记范锐平
+      span 382
+    li
+      i 成都市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1290' target='_blank') 成都市市长王凤朝
+      span 380
+    li
+      i 朝阳区
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=741' target='_blank') 朝阳区委书记王灏
+      span 229
+    li
+      i 南宁市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1260' target='_blank') 南宁市市长周红波
+      span 228
+    li
+      i 郑州市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1136' target='_blank') 郑州市市长王新伟
+      span 222
+    li
+      i 武威市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1397' target='_blank') 武威市委书记柳鹏
+      span 208
+    li
+      i 合肥市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1029' target='_blank') 合肥市委书记虞爱华
+      span 202
+    li
+      i 沈阳市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=874' target='_blank') 沈阳市市长姜有为
+      span 175
+    li
+      i 合肥市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1030' target='_blank') 合肥市市长凌云
+      span 175
+    li
+      i 平顶山市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1141' target='_blank') 平顶山市委书记周斌
+      span 167
+    li
+      i 濮阳市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1151' target='_blank') 濮阳市委书记宋殿宇
+      span 167
+    li
+      i 深圳市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1219' target='_blank') 深圳市委书记王伟中
+      span 163
+    li
+      i 海淀区
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=743' target='_blank') 海淀区委书记于军
+      span 162
+    li
+      i 兰州市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1387' target='_blank') 兰州市委书记李荣灿
+      span 162
+    li
+      i 武汉市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1170' target='_blank') 武汉市市长周先旺
+      span 152
+    li
+      i 南宁市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1259' target='_blank') 南宁市委书记王小东
+      span 142
+    li
+      i 广州市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1218' target='_blank') 广州市市长温国辉
+      span 141
+  ol#con2_2.clearfix(style='display: none')
+    li
+      i 西安市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1367' target='_blank') 西安市委书记王浩
+      span 1299
+    li
+      i 西安市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1368' target='_blank') 西安市市长李明远
+      span 502
+    li
+      i 太原市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=828' target='_blank') 太原市市长张新伟(代）
+      span 464
+    li
+      i 成都市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1289' target='_blank') 成都市委书记范锐平
+      span 427
+    li
+      i 成都市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1290' target='_blank') 成都市市长王凤朝
+      span 410
+    li
+      i 枣庄市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1107' target='_blank') 枣庄市委书记李峰
+      span 297
+    li
+      i 合肥市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1029' target='_blank') 合肥市委书记虞爱华
+      span 296
+    li
+      i 南宁市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1260' target='_blank') 南宁市市长周红波
+      span 262
+    li
+      i 朝阳区
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=741' target='_blank') 朝阳区委书记王灏
+      span 257
+    li
+      i 合肥市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1030' target='_blank') 合肥市市长凌云
+      span 233
+    li
+      i 天水市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1396' target='_blank') 天水市市长王军
+      span 215
+    li
+      i 天水市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1395' target='_blank') 天水市委书记王锐
+      span 204
+    li
+      i 平顶山市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1141' target='_blank') 平顶山市委书记周斌
+      span 178
+    li
+      i 兰州市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1387' target='_blank') 兰州市委书记李荣灿
+      span 177
+    li
+      i 阜阳市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1049' target='_blank') 阜阳市委书记杨光荣
+      span 172
+    li
+      i 武威市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1397' target='_blank') 武威市委书记柳鹏
+      span 170
+    li
+      i 武汉市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1170' target='_blank') 武汉市市长周先旺
+      span 169
+    li
+      i 枣庄市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1108' target='_blank') 枣庄市市长张宏伟（代）
+      span 166
+    li
+      i 沈阳市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=874' target='_blank') 沈阳市市长姜有为
+      span 162
+    li
+      i 新乡市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1147' target='_blank') 新乡市委书记张国伟
+      span 156
+  ol#con2_3.clearfix(style='display: none')
+    li
+      i 通州区
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=753' target='_blank') 通州区委书记曾赞荣
+      span 100%
+    li
+      i 东城区
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=733' target='_blank') 东城区委书记夏林茂
+      span 100%
+    li
+      i 南京市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=981' target='_blank') 南京市委书记张敬华
+      span 100%
+    li
+      i 长治市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=833' target='_blank') 长治市委书记孙大军
+      span 100%
+    li
+      i 南京市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=982' target='_blank') 南京市市长韩立明
+      span 100%
+    li
+      i 四平市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=906' target='_blank') 四平市市长胡斌
+      span 100%
+    li
+      i 六盘水市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1327' target='_blank') 六盘水市委书记王忠
+      span 100%
+    li
+      i 通州区
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=754' target='_blank') 通州区区长赵磊
+      span 100%
+    li
+      i 河西区
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=776' target='_blank') 河西区区长胡学明
+      span 100%
+    li
+      i 四平市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=905' target='_blank') 四平市委书记郭灵计
+      span 100%
+    li
+      i 商洛市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1385' target='_blank') 商洛市委书记郭永红
+      span 100%
+    li
+      i 日喀则市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1359' target='_blank') 日喀则市委书记张延清
+      span 100%
+    li
+      i 徐州市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=985' target='_blank') 徐州市委书记周铁根
+      span 100%
+    li
+      i 常州市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=988' target='_blank') 常州市市长陈金虎
+      span 100%
+    li
+      i 万州区
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1486' target='_blank') 万州区区长聂红焰
+      span 100%
+    li
+      i 株洲市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1562' target='_blank') 株洲市委书记毛腾飞
+      span 100%
+    li
+      i 普陀区
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=953' target='_blank') 普陀区委书记曹立强
+      span 100%
+    li
+      i 安顺市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1332' target='_blank') 安顺市市长宋晓路
+      span 100%
+    li
+      i 枣庄市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1107' target='_blank') 枣庄市委书记李峰
+      span 100%
+    li
+      i 克拉玛依市
+      em
+        a(href='http://liuyan.people.com.cn/list.php?fid=1440' target='_blank') 克拉玛依市市长王刚
+      span 100%
+</template>
+
+<script>
+  module.exports = {
+
+  }
+</script>
+
+
+<style original>
+.paihang-card h2{ font:bold 20px/60px "微软雅黑"; text-align:center;}
+.paihang-card{ width:568px;border:#e0e0e0 1px solid; border-top:none;}
+.paihang-card h3{ border-bottom:#e0e0e0 1px solid; height:50px; background:#e0e0e0;}
+.paihang-card h3 i{ text-align:center; font-size:14px;  background:#ececec;height:50px; display:block; line-height:50px; float:left; width:188px; margin-left:1px;}
+.paihang-card h3 i.t01{ background:#fff;}
+.paihang-card ol{ background:url('https://cunchu.site/upload/8fed82c9c5a191a7.gif') top center no-repeat; width:568px;}
+.paihang-card ol li{ height:47px; line-height:47px; font-size:14px; padding-left:60px;}
+.paihang-card ol li i {
+  padding: 0 20px;
+  width: 100px;
+  display: block;
+  float: left;
+}
+.paihang-card ol li em {
+  padding: 0 20px;
+  width: 200px;
+  display: block;
+  float: left;
+}
+.paihang-card ol li span{ padding:0 20px; width:80px; display:block; float:left;}
+.paihang-card em, .paihang-card i {
+  font-style: normal;
+}
+.paihang-card a {
+  color: #282828;
+}
+</style>

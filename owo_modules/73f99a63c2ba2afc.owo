@@ -4,7 +4,7 @@
     .item-1.liuyanban-item
       h2
         img(src="https://cunchu.site/upload/9d17daa1d27a5a81.png")
-      <p><a href="http://leaders.people.com.cn/n1/2019/0903/c178291-31334400.html" target="_blank">关于领导留言板</a>|<a href="http://www.people.com.cn" target="_blank">人民网</a>|<a href="http://leaders.people.com.cn/GB/178291/218130/414212/index.html" target="_blank">客户端下载</a>|<a href="http://leaders.people.com.cn/n1/2017/0103/c409148-28995855.html" target="_blank">关于删帖</a><br>热线：4008-100-300（不受理投诉、留言）<br>邮箱：leader@people.cn</p>
+      <p><a href="http://leaders.people.com.cn/n1/2019/0903/c178291-31334400.html" target="_blank">关于领导留言板</a>|<a href="http://www.people.com.cn" target="_blank">人民网</a>|<a href="http://leaders.people.com.cn/GB/178291/218130/414212/index.html" target="_blank">客户端下载</a>|<a href="http://leaders.people.com.cn/n1/2017/0103/c409148-28995855.html" target="_blank">关于删帖</a><br>邮箱：leader@people.cn</p>
     .item-2.liuyanban-item
       h2 帮助中心
       ul.clearfix
@@ -65,7 +65,7 @@
     padding-top: 3px;
   }
   a {
-    margin: 0 2px;
+    margin: 0 5px;
   }
   a:first-child {
     margin-left: 0;
