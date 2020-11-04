@@ -56,46 +56,8 @@ function timestampToTime(timestamp) {
 //   getNewData(0, 2)
 // })
 
-
-function tabIt(tabBox, connBox) {
-  this.tabBox = tabBox.children
-  this.connBox = connBox.children
-  // 默认选中第一项
-  this.showIndex(0)
-  for (var index = 0; index < this.tabBox.length; index++) {
-    var element = this.tabBox[index];
-    var _this = this
-    element.setAttribute('tabind', index)
-    element.addEventListener('click', function () {
-      var activeIndex = parseInt(this.getAttribute('tabind'))
-      // console.log(this, _this)
-      _this.showIndex(activeIndex)
-    })
-  }
-}
-
-tabIt.prototype.showIndex = function (activeIndex) {
-  console.log(activeIndex)
-  for (var index = 0; index < this.connBox.length; index++) {
-    var element = this.connBox[index];
-    if (activeIndex == index) {
-      element.style.display = 'block'
-    } else {
-      element.style.display = 'none'
-    }
-  }
-  for (var index = 0; index < this.tabBox.length; index++) {
-    var element = this.tabBox[index];
-    if (activeIndex == index) {
-      element.classList.add('active')
-    } else {
-      element.classList.remove('active')
-    }
-  }
-}
-
 // 第二页
-new tabIt(document.querySelector('.paihang .tab-box'), document.querySelector('.paihang .conn-box'))
+// new tabIt(document.querySelector('.paihang .tab-box'), document.querySelector('.paihang .conn-box'))
 
 // function fanKui(currentNum) {
 // 	var currentNum = (currentNum-1)*10;
@@ -143,3 +105,7 @@ new tabIt(document.querySelector('.paihang .tab-box'), document.querySelector('.
 // 		//console.log(api.getCurrent())
 // 	}
 // });
+
+// 第四页
+new tabIt(document.querySelector('.paihang-card h3'), document.querySelectorAll('.paihang-card ol'))
+new tabIt(document.querySelector('.paihang-card-2 h3'), document.querySelectorAll('.paihang-card-2 ol'))

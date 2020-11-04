@@ -69,6 +69,10 @@
 			"src": "http://leaders.people.com.cn/img/MAIN/2016/12/117070/js/jquery.pagination.js"
 		},
 		{
+			"name": "tab",
+			"src": "./src/tab.js"
+		},
+		{
 			"name": "main",
 			"src": "./src/main.js",
 			"resource": true

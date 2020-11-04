@@ -7,7 +7,7 @@
     plug(_name="shujubaogao" _src="./src/modules/shujubaogao.owo")
     .clearfix.w1200.zhishu_con02.clear
       plug.fl(_name="paihangbang2" _src="./src/modules/paihangbang2.owo")
-      plug.fr(_name="paihangbang3" _src="./src/modules/paihangbang2.owo")
+      plug.fr(_name="paihangbang3" _src="./src/modules/paihangbang3.owo")
   plug(_name="module189" _src="https://template.owo.ink/73f99a63c2ba2afc.owo")
   plug(_name="module2" _src="https://template.owo.ink/e5955f0544f6c308.owo")
 </template>
@@ -29,7 +29,7 @@
   background-color: #ff573b;
   color: white;
 }
-.paihang-card.fr h2 {
+.paihang-card-2.fr h2 {
   background-color: #ff983c;
   color: white;
 }

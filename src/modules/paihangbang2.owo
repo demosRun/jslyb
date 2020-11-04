@@ -2,9 +2,9 @@
 .box.clearfix.paihang-card
   h2.white 副省、地市级领导干部排行榜
   h3
-    i#tt2_1.t01(onclick='showmen_zs2(1)' style='cursor:pointer') 留言排行
-    i#tt2_2(onclick='showmen_zs2(2)' style='cursor:pointer') 回复排行
-    i#tt2_3(onclick='showmen_zs2(3)' style='cursor:pointer') 回复率排行
+    i#tt2_1(style='cursor:pointer') 留言排行
+    i#tt2_2(style='cursor:pointer') 回复排行
+    i#tt2_3(style='cursor:pointer') 回复率排行
   ol#con2_1.clearfix(style='display: block')
     li
       i 西安市
@@ -322,7 +322,7 @@
 .paihang-card{ width:568px;border:#e0e0e0 1px solid; border-top:none;}
 .paihang-card h3{ border-bottom:#e0e0e0 1px solid; height:50px; background:#e0e0e0;}
 .paihang-card h3 i{ text-align:center; font-size:14px;  background:#ececec;height:50px; display:block; line-height:50px; float:left; width:188px; margin-left:1px;}
-.paihang-card h3 i.t01{ background:#fff;}
+.paihang-card h3 i.active{ background:#fff;}
 .paihang-card ol{ background:url('https://cunchu.site/upload/8fed82c9c5a191a7.gif') top center no-repeat; width:568px;}
 .paihang-card ol li{ height:47px; line-height:47px; font-size:14px; padding-left:60px;}
 .paihang-card ol li i {

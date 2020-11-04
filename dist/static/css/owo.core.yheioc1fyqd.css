@@ -270,7 +270,7 @@ li {
   margin-left: 1px;
 }
 
-.paihang-card h3 i.t01 {
+.paihang-card h3 i.active {
   background: #fff;
 }
 
@@ -313,6 +313,80 @@ li {
 }
 
 .paihang-card a {
+  color: #282828;
+}
+.paihang-card-2 h2 {
+  font: bold 20px/60px "微软雅黑";
+  text-align: center;
+}
+
+.paihang-card-2 {
+  width: 568px;
+  border: #e0e0e0 1px solid;
+  border-top: none;
+}
+
+.paihang-card-2 h3 {
+  border-bottom: #e0e0e0 1px solid;
+  height: 50px;
+  background: #e0e0e0;
+}
+
+.paihang-card-2 h3 i {
+  text-align: center;
+  font-size: 14px;
+  background: #ececec;
+  height: 50px;
+  display: block;
+  line-height: 50px;
+  float: left;
+  width: 188px;
+  margin-left: 1px;
+}
+
+.paihang-card-2 h3 i.active {
+  background: #fff;
+}
+
+.paihang-card-2 ol {
+  background: url('https://cunchu.site/upload/8fed82c9c5a191a7.gif') top center no-repeat;
+  width: 568px;
+}
+
+.paihang-card-2 ol li {
+  height: 47px;
+  line-height: 47px;
+  font-size: 14px;
+  padding-left: 60px;
+}
+
+.paihang-card-2 ol li i {
+  padding: 0 20px;
+  width: 100px;
+  display: block;
+  float: left;
+}
+
+.paihang-card-2 ol li em {
+  padding: 0 20px;
+  width: 200px;
+  display: block;
+  float: left;
+}
+
+.paihang-card-2 ol li span {
+  padding: 0 20px;
+  width: 80px;
+  display: block;
+  float: left;
+}
+
+.paihang-card-2 em,
+.paihang-card-2 i {
+  font-style: normal;
+}
+
+.paihang-card-2 a {
   color: #282828;
 }
 .liuyanban {
@@ -426,7 +500,7 @@ li {
   color: white;
 }
 
-.paihang-card.fr h2 {
+.paihang-card-2.fr h2 {
   background-color: #ff983c;
   color: white;
 }
