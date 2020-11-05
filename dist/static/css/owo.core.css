@@ -190,205 +190,21 @@ li {
   float: left;
   line-height: 56px;
 }
-.zhishu_con03 {
-  margin: 30px auto;
-}
-
-.zhishu_con03 h2 {
-  background: url('http://leaders.people.com.cn/img/MAIN/2016/12/117070/images/zs01.gif') center no-repeat;
-  height: 28px;
-}
-
-.zhishu_con03 h2 b {
-  float: left;
-  font: normal 24px/28px "微软雅黑";
-  padding-left: 30px;
-}
-
-.zhishu_con03 .box {
-  margin: 30px auto;
-}
-
-.zhishu_con03 .fl {
-  width: 455px;
-  padding-left: 20px;
-}
-
-.zhishu_con03 .fr {
-  width: 650px;
-  padding-right: 20px;
-}
-
-.zhishu_con03 .fr b {
-  font: bold 20px/140% "微软雅黑";
-  display: block;
-  border-bottom: #f3f3f3 1px solid;
-  padding: 10px 0 20px;
-  margin-bottom: 15px;
-}
-
-.zhishu_con03 .fr p {
+.path_2j {
   font-size: 14px;
-  text-indent: 2em;
-  line-height: 200%;
-}
-
-.zhishu_con03 h2 i {
-  float: right;
-  font-size: 12px;
-  font-style: normal;
-  line-height: 28px;
-  font-weight: normal;
-  padding-right: 20px;
-}
-.paihang-card h2 {
-  font: bold 20px/60px "微软雅黑";
-  text-align: center;
-}
-
-.paihang-card {
-  width: 568px;
-  border: #e0e0e0 1px solid;
-  border-top: none;
-}
-
-.paihang-card h3 {
-  border-bottom: #e0e0e0 1px solid;
-  height: 50px;
-  background: #e0e0e0;
-}
-
-.paihang-card h3 i {
-  text-align: center;
-  font-size: 14px;
-  background: #ececec;
-  height: 50px;
-  display: block;
   line-height: 50px;
-  float: left;
-  width: 188px;
-  margin-left: 1px;
-}
-
-.paihang-card h3 i.active {
-  background: #fff;
-}
-
-.paihang-card ol {
-  background: url('https://cunchu.site/upload/8fed82c9c5a191a7.gif') top center no-repeat;
-  width: 568px;
-}
-
-.paihang-card ol li {
-  height: 47px;
-  line-height: 47px;
-  font-size: 14px;
-  padding-left: 60px;
-}
-
-.paihang-card ol li i {
-  padding: 0 20px;
-  width: 100px;
-  display: block;
-  float: left;
-}
-
-.paihang-card ol li em {
-  padding: 0 20px;
-  width: 200px;
-  display: block;
-  float: left;
-}
-
-.paihang-card ol li span {
-  padding: 0 20px;
-  width: 80px;
-  display: block;
-  float: left;
-}
-
-.paihang-card em,
-.paihang-card i {
-  font-style: normal;
-}
-
-.paihang-card a {
-  color: #282828;
-}
-.paihang-card-2 h2 {
-  font: bold 20px/60px "微软雅黑";
-  text-align: center;
-}
-
-.paihang-card-2 {
-  width: 568px;
-  border: #e0e0e0 1px solid;
-  border-top: none;
-}
-
-.paihang-card-2 h3 {
-  border-bottom: #e0e0e0 1px solid;
   height: 50px;
-  background: #e0e0e0;
 }
 
-.paihang-card-2 h3 i {
-  text-align: center;
-  font-size: 14px;
-  background: #ececec;
-  height: 50px;
-  display: block;
-  line-height: 50px;
-  float: left;
-  width: 188px;
-  margin-left: 1px;
+.path_2j,
+.path_2j a {
+  color: #7a7a7a;
 }
 
-.paihang-card-2 h3 i.active {
-  background: #fff;
+.path_2j a:hover {
+  color: #7a7a7a;
 }
 
-.paihang-card-2 ol {
-  background: url('https://cunchu.site/upload/8fed82c9c5a191a7.gif') top center no-repeat;
-  width: 568px;
-}
-
-.paihang-card-2 ol li {
-  height: 47px;
-  line-height: 47px;
-  font-size: 14px;
-  padding-left: 60px;
-}
-
-.paihang-card-2 ol li i {
-  padding: 0 20px;
-  width: 100px;
-  display: block;
-  float: left;
-}
-
-.paihang-card-2 ol li em {
-  padding: 0 20px;
-  width: 200px;
-  display: block;
-  float: left;
-}
-
-.paihang-card-2 ol li span {
-  padding: 0 20px;
-  width: 80px;
-  display: block;
-  float: left;
-}
-
-.paihang-card-2 em,
-.paihang-card-2 i {
-  font-style: normal;
-}
-
-.paihang-card-2 a {
-  color: #282828;
-}
 .liuyanban {
   padding: 40px 0;
   background-color: #2f4359;

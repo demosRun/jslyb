@@ -1,0 +1,37 @@
+<template lang="pug">
+.home
+  plug(_name="topBar" _src="./src/page/topBar.owo")
+  plug(_name="liuyanban-topBar" _src="./src/page/liuyanban-topBar.owo")
+  plug(_name="module60" _src="https://template.owo.ink/c2cab888fc67bf34.owo")
+  .conn.w1200.clear
+    plug(_name="navBar" _src="./src/modules/nav-bar.owo")
+    plug(_name="selectBar" _src="./src/modules/select-bar.owo")
+  plug(_name="module189" _src="https://template.owo.ink/73f99a63c2ba2afc.owo")
+  plug(_name="module2" _src="https://template.owo.ink/e5955f0544f6c308.owo")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      console.log('s')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.conn.w1200 {
+  margin-top: 20px;
+}
+.paihang-card.fl h2 {
+  background-color: #ff573b;
+  color: white;
+}
+.paihang-card-2.fr h2 {
+  background-color: #ff983c;
+  color: white;
+}
+.zhishu_con02 {
+  padding-bottom: 50px;
+}
+</style>
