@@ -1,0 +1,47 @@
+<template lang="pug">
+.clearfix.district_box01.w1200
+  span 江苏省:
+  a#4(href='/forum/list?fid=4') 北京
+  i |
+  a#5(href='/forum/list?fid=5') 天津
+  i |
+  a#6(href='/forum/list?fid=6') 河北
+  i |
+  a#17(href='/forum/list?fid=17') 山西
+  i |
+  a#18(href='/forum/list?fid=18') 内蒙古
+  i |
+  a#8(href='/forum/list?fid=8') 辽宁
+  i |
+  a#9(href='/forum/list?fid=9') 吉林
+  i |
+  a#10(href='/forum/list?fid=10') 黑龙江
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      
+    }
+  }
+</script>
+
+
+<style original>
+.district_box01 {
+  font-size: 16px;
+  border-bottom: #e1e1e1 1px solid;
+  line-height: 240%;
+  border-top: #d83240 2px solid;
+  padding: 10px 0;
+}
+.district_box01 a {
+  padding: 4px 10px;
+  color: #3d3d3d;
+  margin: 0 7px 0 6px;
+}
+.district_box01 span {
+  font-weight: bold;
+  font-size: 16px;
+}
+</style>

@@ -76,6 +76,14 @@
 			"name": "main",
 			"src": "./src/main.js",
 			"resource": true
+		},
+		{
+			"name": "user",
+			"src": "http://liuyan.people.com.cn/static/www/js/user.js"
+		},
+		{
+			"name": "layer",
+			"src": "http://liuyan.people.com.cn/static/common/js/thirdparty/layer/layer.js"
 		}
 	],
 	"styleList": [

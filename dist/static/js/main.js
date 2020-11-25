@@ -107,5 +107,7 @@ function timestampToTime(timestamp) {
 // });
 
 // 第四页
-new tabIt(document.querySelector('.paihang-card h3'), document.querySelectorAll('.paihang-card ol'))
-new tabIt(document.querySelector('.paihang-card-2 h3'), document.querySelectorAll('.paihang-card-2 ol'))
+// new tabIt(document.querySelector('.paihang-card h3'), document.querySelectorAll('.paihang-card ol'))
+// new tabIt(document.querySelector('.paihang-card-2 h3'), document.querySelectorAll('.paihang-card-2 ol'))
+
+new tabIt(document.querySelector('.tab-box .titlt-bar'), document.querySelectorAll('.conn-list .conn-item'))
